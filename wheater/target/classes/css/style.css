@@ -1,0 +1,31 @@
+.button {
+    -fx-background-color: #7156DD;
+    -fx-cursor: hand;
+    -fx-text-fill: WHITE;
+}
+
+.button:hover {
+    -fx-background-color: #5c4192;
+}
+
+.button:disabled#btnRun {
+    -fx-background-color: #7156DD;
+    -fx-text-fill: WHITE;
+    -fx-opacity: 1;
+}
+
+.button:pressed {
+    -fx-background-color: #927fde;
+}
+
+#btnClose {
+    -fx-cursor: hand;
+    -fx-fill: #5c4192;
+}
+
+#btnClose:hover {
+    -fx-fill: #ff00ff;
+    -fx-scale-x: 1.5;
+    -fx-scale-y: 1.5;
+
+}

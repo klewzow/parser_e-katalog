@@ -1,0 +1,105 @@
+2023-02-13 09:40:08.329  INFO 15292 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 16.0.2 on HOME-PC with PID 15292 (started by klewa in E:\javaProgect\parsers\weather)
+2023-02-13 09:40:08.335  INFO 15292 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2023-02-13 09:40:09.232  INFO 15292 --- [JavaFX-Launcher] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-13 09:40:09.291  INFO 15292 --- [JavaFX-Launcher] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2023-02-13 09:40:09.552  WARN 15292 --- [JavaFX-Launcher] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-02-13 09:40:09.565  INFO 15292 --- [JavaFX-Launcher] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-13 09:40:09.586 ERROR 15292 --- [JavaFX-Launcher] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-02-13 09:46:34.360  INFO 1148 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 16.0.2 on HOME-PC with PID 1148 (started by klewa in E:\javaProgect\parsers\weather)
+2023-02-13 09:46:34.363  INFO 1148 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2023-02-13 09:46:35.140  INFO 1148 --- [JavaFX-Launcher] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-13 09:46:35.190  INFO 1148 --- [JavaFX-Launcher] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+2023-02-13 09:46:35.428  WARN 1148 --- [JavaFX-Launcher] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-02-13 09:46:35.441  INFO 1148 --- [JavaFX-Launcher] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-13 09:46:35.464 ERROR 1148 --- [JavaFX-Launcher] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-02-13 09:48:47.602  INFO 14472 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 16.0.2 on HOME-PC with PID 14472 (started by klewa in E:\javaProgect\parsers\weather)
+2023-02-13 09:48:47.605  INFO 14472 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2023-02-13 09:48:48.817  INFO 14472 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Started application in 1.654 seconds (JVM running for 3.095)
+2023-02-13 14:06:01.280  INFO 16496 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 16.0.2 on HOME-PC with PID 16496 (started by klewa in E:\javaProgect\parsers\weather)
+2023-02-13 14:06:01.283  INFO 16496 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2023-02-13 14:06:02.116  INFO 16496 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Started application in 1.163 seconds (JVM running for 2.26)
+2023-02-13 14:06:38.127  INFO 15664 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 16.0.2 on HOME-PC with PID 15664 (started by klewa in E:\javaProgect\parsers\weather)
+2023-02-13 14:06:38.129  INFO 15664 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2023-02-13 14:06:38.980  INFO 15664 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Started application in 1.161 seconds (JVM running for 2.613)
+2023-02-13 14:17:41.810  INFO 9056 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 16.0.2 on HOME-PC with PID 9056 (started by klewa in E:\javaProgect\parsers\weather)
+2023-02-13 14:17:41.812  INFO 9056 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2023-02-13 14:17:42.747  INFO 9056 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Started application in 1.274 seconds (JVM running for 2.386)
+2023-02-13 14:38:42.644  INFO 17260 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 16.0.2 on HOME-PC with PID 17260 (started by klewa in E:\javaProgect\parsers\weather)
+2023-02-13 14:38:42.647  INFO 17260 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2023-02-13 14:38:43.548  INFO 17260 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Started application in 1.236 seconds (JVM running for 2.275)
+2023-02-13 14:40:08.440  INFO 23944 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 16.0.2 on HOME-PC with PID 23944 (started by klewa in E:\javaProgect\parsers\weather)
+2023-02-13 14:40:08.443  INFO 23944 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2023-02-13 14:40:09.320  INFO 23944 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Started application in 1.229 seconds (JVM running for 2.219)
+2023-02-13 14:40:55.031  INFO 6128 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 16.0.2 on HOME-PC with PID 6128 (started by klewa in E:\javaProgect\parsers\weather)
+2023-02-13 14:40:55.033  INFO 6128 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2023-02-13 14:40:55.947  INFO 6128 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Started application in 1.229 seconds (JVM running for 2.445)
+2023-02-13 14:41:39.862  INFO 5072 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 16.0.2 on HOME-PC with PID 5072 (started by klewa in E:\javaProgect\parsers\weather)
+2023-02-13 14:41:39.864  INFO 5072 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2023-02-13 14:41:40.723  INFO 5072 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Started application in 1.199 seconds (JVM running for 2.186)
+2023-02-13 14:43:07.322  INFO 18256 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 16.0.2 on HOME-PC with PID 18256 (started by klewa in E:\javaProgect\parsers\weather)
+2023-02-13 14:43:07.324  INFO 18256 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2023-02-13 14:43:08.255  INFO 18256 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Started application in 1.243 seconds (JVM running for 2.473)
+2023-02-13 14:45:24.632  INFO 8632 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 16.0.2 on HOME-PC with PID 8632 (started by klewa in E:\javaProgect\parsers\weather)
+2023-02-13 14:45:24.635  INFO 8632 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2023-02-13 14:45:25.526  INFO 8632 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Started application in 1.19 seconds (JVM running for 2.822)
+2023-02-13 14:45:25.576  WARN 8632 --- [JavaFX Application Thread] javafx                                   : Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 16
+2023-02-13 14:46:22.913  INFO 11952 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 16.0.2 on HOME-PC with PID 11952 (started by klewa in E:\javaProgect\parsers\weather)
+2023-02-13 14:46:22.916  INFO 11952 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2023-02-13 14:46:23.758  INFO 11952 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Started application in 1.202 seconds (JVM running for 2.147)
+2023-02-13 14:46:23.810  WARN 11952 --- [JavaFX Application Thread] javafx                                   : Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 16
+2023-02-13 14:48:37.760  INFO 24188 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 16.0.2 on HOME-PC with PID 24188 (started by klewa in E:\javaProgect\parsers\weather)
+2023-02-13 14:48:37.762  INFO 24188 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2023-02-13 14:48:38.734  INFO 24188 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Started application in 1.319 seconds (JVM running for 2.269)
+2023-02-13 14:48:38.793  WARN 24188 --- [JavaFX Application Thread] javafx                                   : Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 16
+2023-02-13 14:50:18.483  INFO 3248 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 16.0.2 on HOME-PC with PID 3248 (started by klewa in E:\javaProgect\parsers\weather)
+2023-02-13 14:50:18.486  INFO 3248 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2023-02-13 14:50:19.320  INFO 3248 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Started application in 1.175 seconds (JVM running for 2.129)
+2023-02-13 14:50:19.379  WARN 3248 --- [JavaFX Application Thread] javafx                                   : Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 16
+2023-02-13 14:57:18.714  INFO 24336 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 16.0.2 on HOME-PC with PID 24336 (started by klewa in E:\javaProgect\parsers\weather)
+2023-02-13 14:57:18.717  INFO 24336 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2023-02-13 14:57:19.566  INFO 24336 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Started application in 1.186 seconds (JVM running for 2.171)
+2023-02-13 14:57:19.624  WARN 24336 --- [JavaFX Application Thread] javafx                                   : Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 16
+2023-02-13 15:00:25.384  INFO 23772 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 16.0.2 on HOME-PC with PID 23772 (started by klewa in E:\javaProgect\parsers\weather)
+2023-02-13 15:00:25.387  INFO 23772 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2023-02-13 15:00:26.227  INFO 23772 --- [JavaFX-Launcher] o.s.boot.SpringApplication               : Started application in 1.174 seconds (JVM running for 2.115)
+2023-02-13 15:00:26.280  WARN 23772 --- [JavaFX Application Thread] javafx                                   : Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 16

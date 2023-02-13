@@ -1,0 +1,7 @@
+.git
+.idea/*
+log/*
+target/*
+rabbitmq_data/*
+dispatcher/src/main/resources/application.properties
+node/src/main/resources/application.properties
